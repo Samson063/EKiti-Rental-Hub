@@ -17,7 +17,7 @@ $ git clone https://github.com/Mikealson-1/EKiti-Rental-Hub
 # Go into the repository
 $ cd EKiti-Rental-Hub
 
-# Create a virtual environment, replace env_name with your desired name
+# Create a virtual environment, replace env with your desired name
 $ python3 -m venv env
 
 # Activate the virtual environment 
