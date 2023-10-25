@@ -7,6 +7,8 @@ To clone and run this application, you'll need [Python](https://www.python.org/d
 
 This app uses the default SQLite database for testing purposes for now.
 
+We'll be using MySQL / PostgreSQL on production.
+
 From your command line:
 ```bash
 # Clone this repository
