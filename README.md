@@ -3,9 +3,9 @@ This is the backend branch for this project.
 
 ## Installation
 
-To clone and run this application, you'll need [Python](https://www.python.org/downloads/release/python-3111/) (which comes with [pip](https://pip.pypa.io/en/stable/)) installed on your computer. 
+To clone and run this application, you'll need [Python](https://www.python.org/downloads/release/python-3111/) (which comes with [pip](https://pip.pypa.io/en/stable/) by default) installed on your PC. 
 
-This app uses the default SQLite database.
+This app uses the default SQLite database for testing purposes for now.
 
 From your command line:
 ```bash
@@ -22,14 +22,14 @@ $ python3 -m venv env
 $ source env/bin/activate
 
 # Install dependencies
-(env_name) $ pip install -r requirements.txt
+(env) $ pip install -r requirements.txt
 
 # Run migrations
-(env_name) $ python3 manage.py makemigrations
-(env_name) $ python3 manage.py migrate
+(env) $ python3 manage.py makemigrations
+(env) $ python3 manage.py migrate
 
 # Run the server
-(env_name) $ python3 manage.py runserver
+(env) $ python3 manage.py runserver
 ```
 > **Note**
 > If you're using Windows OS use `python` or `py` instead of `python3` from the command prompt.
