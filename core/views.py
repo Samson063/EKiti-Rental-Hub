@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from accounts.models import User
+from .utils import *
 
-# Create your views here.
+def home(request):
+    pass
